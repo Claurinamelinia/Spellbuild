@@ -1,21 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../HTML/picture/w7rnmxzvhjk21.png);
+    background-image: url(picture/w7rnmxzvhjk21.png);
     opacity: 10px;
     
 }
 
 .header{
     display: inline-flex;
-    background-color: darkslategrey;
+    background-color: #2f4f4f;
     width: 100%;
     height: 60px;
 }
 
 .title{
     font-size: 30px;
-    color: white;
+    color: #ffffff;
     font-family: fantasy;
     padding-top: 10px;
     margin-top: -1px;
@@ -24,12 +24,12 @@ body{
 
 .navbar{
     display: inline-flex;
-    background-color: darkslategrey;
+    background-color: #2f4f4f;
     justify-content: space-around;
     width: 100%;
     margin-top: 5px;
     margin-right: 300px;
-    color: white;
+    color: #ffffff;
 }
 
 .search-bar input[type="text"]{
@@ -39,14 +39,14 @@ body{
 }
 
 a {
-    color: gold;
+    color: #ffd700;
     text-decoration: none;
 }
 
-p:hover{
-    background-color: black;
-    color: gold;
-    border-style: ridge;
+.navbar p:hover a{
+    /* background-color: #000000; */
+    color: #fbf7e0;
+    /*   */
 }
 
 .container{
@@ -60,7 +60,7 @@ p:hover{
 .btn-bgstroke {
     font-size: 20px;
     display: inline-block;
-    border: 1px double white;
+    border: 1px double #ffffff;
     padding: 0 20px;
     border-radius: 10px;
     text-decoration: none;
@@ -74,26 +74,26 @@ p:hover{
   }
 
   .btn-bgstroke:hover {
-    border: 1px solid white;
-    background-color: darkslategray;
-    color: gold;
+    border: 1px solid #ffffff;
+    background-color: #2f4f4f;
+    color: #ffd700;
   }
 
  h1{
-     background-color: darkslategrey;
+     background-color: #2f4f4f;
      width: 50%;
      margin: auto;
-     color: gold;
+     color: #ffd700;
      font-family: 'Lato';
      text-align: center;
      margin-top: 20px;
  }
 
  .p{
-     background-color: darkslategrey;
+     background-color: #2f4f4f;
      width: 50%;
      margin: auto;
-     color: gold;
+     color: #ffd700;
      font-family: 'Lato';
      text-align: center;
  }
@@ -104,19 +104,19 @@ p:hover{
  }
 
 h1:hover{
-    background-color: black;
-    color:gold;
+    background-color: #000000;
+    color:#ffd700;
 }
 
 .p:hover{
-    background-color: black;
-    color:gold;
+    background-color: #000000;
+    color:#ffd700;
 }
 
 .footer{
     width: 100%;
-    background-color: darkslategrey;
-    color: white;
+    background-color: #2f4f4f;
+    color: #ffffff;
     text-align: center;
     position: absolute;
     top: 700px;
